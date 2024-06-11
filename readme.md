@@ -2,7 +2,11 @@
 
 崩坏三4.6版本及之前的所有剧情原始对话片段（.txt)格式
 
-适用LLM微调的数据集，.json,推荐使用swift微调框架
+适用LLM微调的数据集，.json,推荐使用swift微调框架。
+
+包含双向索引文件，id2speaker,speaker2id
+
+可使用dataset_generator.py自行生成指定长度上下文的数据集。
 
 # 说明
 
